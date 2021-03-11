@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+form {
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+
+.bouton {
+  background-color: #fba88d;
+  color: #fff;
+}
+
+.bouton:hover {
+  background-color: #fba88d;
+  color: #fff;
+}
+
+.bouton-login {
+  border-radius: 30px;
+}
+
+nav {
+  /* background-image: linear-gradient(to right, #0ba360 0%, #3cba92 100%); */
+  background-color: #fff;
+}
+
+body {
+  background-image: linear-gradient(62.5deg, #ffecd2 0%, #fcb69f 100%);
+  background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* .container {
+  background-color: white;
+} */
+
+#jumbo {
+  background-image: url('../img/undraw_grand_slam_0q5r.svg');
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.jumbotron {
+  background-color: transparent !important;
+}
+
+p.lead {
+  width: 70%;
+}
+
+#accueil {
+  background-color: white;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#accueil .row {
+  padding: 10px 30px !important;
+}
+
+.cardsSports {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.row > h1 {
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.alert-success {
+  margin-top: 10px !important;
+}
